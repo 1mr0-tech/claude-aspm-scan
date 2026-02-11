@@ -1,0 +1,41 @@
+{
+  "name": "claude-aspm-scan",
+  "version": "1.0.0",
+  "description": "Claude Code skill for Application Security Posture Management — runs Semgrep SAST and optional Shannon pentesting, generates ASPM_SCAN.md reports",
+  "keywords": [
+    "claude-code",
+    "claude",
+    "security",
+    "aspm",
+    "sast",
+    "semgrep",
+    "appsec",
+    "vulnerability-scanner",
+    "devsecops",
+    "pentest",
+    "shannon"
+  ],
+  "author": "Imran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "files": [
+    "commands/",
+    "bin/",
+    "install.sh",
+    "uninstall.sh",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node bin/postinstall.js",
+    "preuninstall": "node bin/preuninstall.js",
+    "test": "bash tests/run-aspm-tests.sh"
+  }
+}
