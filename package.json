@@ -19,11 +19,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/1mr0-tech/claude-aspm-scan.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/1mr0-tech/claude-aspm-scan#readme",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/1mr0-tech/claude-aspm-scan/issues"
   },
   "files": [
     "commands/",

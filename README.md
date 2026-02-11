@@ -26,7 +26,7 @@ This automatically copies the skill to `~/.claude/commands/aspm-scan.md`. It's r
 ### Manual
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-aspm-scan.git
+git clone https://github.com/1mr0-tech/claude-aspm-scan.git
 cd claude-aspm-scan
 bash install.sh
 ```
